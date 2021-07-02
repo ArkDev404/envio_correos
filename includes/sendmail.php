@@ -35,10 +35,10 @@
         $mail->IsSMTP();
         $mail->SMTPAuth = true;
     
-        $mail->Username = 'ray_garcia_a2@live.com'; //Correo de donde enviaremos los correos
-        $mail->Password = 'Zombie-Core!22'; // Password de la cuenta de envío
+        $mail->Username = 'correo@correo.com'; //Correo de donde enviaremos los correos
+        $mail->Password = '***'; // Password de la cuenta de envío
         
-        $mail->setFrom('ray_garcia_a2@live.com', 'Ray');
+        $mail->setFrom('correo@correo.com', 'nombre');
     
         $mail->addAddress($correo);
     
